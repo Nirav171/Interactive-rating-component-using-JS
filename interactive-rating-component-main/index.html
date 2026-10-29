@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="styles.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<script src="script.js" defer></script>
+<body>
+
+  <!-- Rating state start -->
+ <div class="rating-card">
+  <div class="first" hidden>
+  
+    <img class="star" src="images/icon-star.svg">
+
+    <h1 class="text-neutral fw-bold">How did we do?</h1>
+
+    <p class="text-lighter details">Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
+
+    <div class="ratings">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+    </div>
+
+    <button class="submit text-dark fw-bold">SUBMIT</button>
+
+    <p class="unselected"></p>
+
+
+  </div>
+  <div class="second" hidden>
+    <img src="images/illustration-thank-you.svg">
+
+    <p class="select">You selected <span class="selected-rating"></span> out of 5</p>
+
+    <h1 class="text-neutral fw-bold">Thank you!</h1>
+
+    <p class="appreciate">We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch!</p>
+
+  </div>
+ 
+ </div>
+  
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+ <!--out of 5
+
+  Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!
+
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>-->
+</body>
+</html>
